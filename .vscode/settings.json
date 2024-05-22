@@ -1,0 +1,15 @@
+{
+  // 设置 VSCode 默认格式化工具为 Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 保存文件时自动格式化
+  "editor.formatOnSave": true,
+  // 仅当找到项目级别的 Prettier 配置时格式化
+  "prettier.requireConfig": true,
+  // 如果你的项目经常处理多种语言，你也可以指定在特定语言上保存时才自动格式化
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  }
+}
